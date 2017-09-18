@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_weight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#004D40"
+    tools:context="superunitconverter.nexmii.com.superunitconverter.WeightActivity">
+
+
+    <TextView
+        android:id="@+id/weMenuTitle"
+        android:text="@string/weMenuTitle"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/categoryTitle_size"
+        android:layout_marginTop="11dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/gANDoz"
+        android:text="@string/gramsAndOunces"
+        android:textAllCaps="false"
+        android:background="@drawable/round_corners_btns"
+        android:textSize="@dimen/mainbuttonsTextSize"
+        android:layout_marginTop="29dp"
+        android:textColor="#4c4242"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/KgANDLbs"
+        android:layout_alignLeft="@+id/KgANDLbs"
+        android:layout_alignStart="@+id/KgANDLbs" />
+
+    <Button
+        android:id="@+id/KgANDLbs"
+        android:text="@string/kilogramsAndPounds"
+        android:textAllCaps="false"
+        android:background="@drawable/round_corners_btns"
+        android:textSize="@dimen/mainbuttonsTextSize"
+        android:layout_marginTop="32dp"
+        android:textColor="#4c4242"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/weMenuTitle"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

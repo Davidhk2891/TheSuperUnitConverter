@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Super Unit Converter</string>
+    //main screen-----------------------------------------------------
+    <string name="tempButton">Temperature</string>
+    <string name="disButton">Distance</string>
+    <string name="weButton">Weight</string>
+    <string name="TitleMain">Choose a Category</string>
+    //----------------------------------------------------------------
+
+    //Temperature Page------------------------------------------------
+    <string name="tempGuide1">1. Type in the temperature you want to convert</string>
+    <string name="tempGuide2">2. Select the temperature unit you want to convert your number to</string>
+    <string name="editTextHint">Enter Temp</string>
+    <string name="buttonC">°C</string>
+    <string name="buttonF">°F</string>
+    <string name="dialog_title">No Value Found</string>
+    <string name="dialog_message">You need to insert a number in the text field</string>
+    <string name="negativeButton">Got it</string>
+    //---------------------------------------------------------------
+
+    //Distance Menu--------------------------------------------------
+    <string name="disMenuTitle">Choose a Category</string>
+    <string name="kilometersAndMiles">Km &amp; Mi</string>
+    <string name="metersAndFeet">m &amp; ft</string>
+    <string name="centimetersAndInches">cm &amp; in</string>
+    //---------------------------------------------------------------
+
+    //Weight Menu----------------------------------------------------
+    <string name="weMenuTitle">Choose a Category</string>
+    <string name="kilogramsAndPounds">Kg &amp; Lbs</string>
+    <string name="gramsAndOunces">g &amp; oz</string>
+    //---------------------------------------------------------------
+
+    //Distance Texts-------------------------------------------------
+    <string name="disGuide1">1. Type in the Distance you want to convert</string>
+    <string name="disGuide2">2. Select the Distance unit you want to convert your number to</string>
+    <string name="EditTextdisHint">Enter Distance</string>
+    <string name="Kilometers">Km</string>
+    <string name="Miles">Mi</string>
+    <string name="meters">m</string>
+    <string name="feet">ft</string>
+    <string name="centi">cm</string>
+    <string name="inches">in</string>
+    //---------------------------------------------------------------
+
+    //Weight Texts---------------------------------------------------
+    <string name="weGuide1">1. Type in the Weight you want to convert</string>
+    <string name="weGuide2">2. Select the Weight unit you want to convert your number to</string>
+    <string name="EditTextweHint">Enter Weight</string>
+    <string name="Kilograms">Kg</string>
+    <string name="Pounds">lbs</string>
+    <string name="grams">g</string>
+    <string name="ounces">oz</string>
+    //---------------------------------------------------------------
+
+    //ColorPicker Page-----------------------------------------------
+    <string name="colorTitle">Select a Text Color</string>
+
+    <string name="halp">\?</string>
+</resources>

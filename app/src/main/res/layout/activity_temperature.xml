@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_temperature"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#004D40"
+    tools:context="superunitconverter.nexmii.com.superunitconverter.TemperatureActivity">
+
+    <EditText
+        android:id="@+id/editTextID"
+        android:layout_marginTop="130dp"
+        android:maxLength="17"
+        android:maxLines="1"
+        android:digits="1234567890."
+        android:hint="@string/editTextHint"
+        android:inputType="phone"
+        android:imeOptions="actionDone"
+        android:textColorHint="#ffffff"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/editTextWidth"
+        android:layout_height="@dimen/editTextHeight" />
+
+    <Button
+        android:id="@+id/fahrenheitID"
+        android:layout_below="@+id/editTextID"
+        android:layout_marginTop="55dp"
+        android:layout_alignRight="@+id/editTextID"
+        android:layout_alignEnd="@+id/editTextID"
+        android:text="@string/buttonF"
+        android:textSize="50sp"
+        android:layout_marginRight="15dp"
+        android:textColor="#4c4242"
+        android:background="@drawable/round_corners_btns"
+        android:layout_marginEnd="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/celisusID"
+        android:text="@string/buttonC"
+        android:textSize="50sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/round_corners_btns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4c4242"
+        android:layout_alignBaseline="@+id/fahrenheitID"
+        android:layout_alignBottom="@+id/fahrenheitID"
+        android:layout_alignLeft="@+id/editTextID"
+        android:layout_alignStart="@+id/editTextID" />
+
+    <TextView
+        android:id="@+id/resultID"
+        android:textSize="40sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fahrenheitID"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/halp"
+        android:text="@string/halp"
+        android:background="#004D40"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/mainbuttonsTextSize"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content" />
+
+
+
+
+</RelativeLayout>

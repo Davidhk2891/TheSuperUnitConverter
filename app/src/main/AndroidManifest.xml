@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="superunitconverter.nexmii.com.superunitconverter"
+    android:versionCode="2"
+    android:versionName="1.1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TemperatureActivity"
+            android:label="Celsius &amp; Fahrenheit" />
+        <activity
+            android:name=".DistanceActivity"
+            android:label="Distance" />
+        <activity
+            android:name=".WeightActivity"
+            android:label="Weight" />
+        <activity
+            android:name=".KmAndMiActivity"
+            android:label="Km &amp; Mi" />
+        <activity
+            android:name=".mAndftActivity"
+            android:label="m &amp; ft" />
+        <activity
+            android:name=".cmAndinActivity"
+            android:label="cm &amp; in" />
+        <activity
+            android:name=".kgAndLbsActivity"
+            android:label="Kg &amp; Lbs" />
+        <activity
+            android:name=".gAndOzActivity"
+            android:label="g &amp; oz" />
+        <activity
+            android:name=".HelpActivity"
+            android:label="Instructions" />
+        <activity android:name=".Colorpicker"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    //Main Screen--------------------------------------------
+    <dimen name="mainbuttonsTextSize">30sp</dimen>
+    <dimen name="categoryTitle_size">37sp</dimen>
+
+    //Temperature Page---------------------------------------
+    <dimen name="editTextWidth">300dp</dimen>
+    <dimen name="editTextHeight">60dp</dimen>
+</resources>

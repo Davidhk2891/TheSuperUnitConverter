@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_distance"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#004D40"
+    tools:context="superunitconverter.nexmii.com.superunitconverter.DistanceActivity">
+
+    <Button
+        android:id="@+id/kmANDmi"
+        android:text="@string/kilometersAndMiles"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/distanceTitle"
+        android:background="@drawable/round_corners_btns"
+        android:textSize="@dimen/mainbuttonsTextSize"
+        android:layout_marginTop="31dp"
+        android:textColor="#4c4242"
+        android:layout_width="280dp"
+        android:layout_height="70dp" />
+
+
+    <Button
+        android:id="@+id/mANDft"
+        android:text="@string/metersAndFeet"
+        android:textAllCaps="false"
+        android:background="@drawable/round_corners_btns"
+        android:textSize="@dimen/mainbuttonsTextSize"
+        android:layout_marginTop="31dp"
+        android:textColor="#4c4242"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/kmANDmi"
+        android:layout_alignLeft="@+id/kmANDmi"
+        android:layout_alignStart="@+id/kmANDmi" />
+
+    <Button
+        android:id="@+id/cmANDin"
+        android:text="@string/centimetersAndInches"
+        android:textSize="@dimen/mainbuttonsTextSize"
+        android:textColor="#4c4242"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/mANDft"
+        android:layout_alignStart="@+id/mANDft"
+        android:layout_below="@id/mANDft"
+        android:layout_marginTop="31dp"
+        android:textAllCaps="false"
+        android:background="@drawable/round_corners_btns"/>
+
+    <TextView
+        android:id="@+id/distanceTitle"
+        android:text="@string/disMenuTitle"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/categoryTitle_size"
+        android:layout_marginTop="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
